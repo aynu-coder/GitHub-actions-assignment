@@ -1,1 +1,1 @@
-# GitHub-actions-assignment
+This is my first GitHub Actions assignment.
