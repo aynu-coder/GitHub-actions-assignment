@@ -1,0 +1,12 @@
+name: Daily Scheduled Task
+
+on:
+  schedule:
+    - cron: "0 12 * * *"
+
+jobs:
+  run-task:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run scheduled job
+        run: echo "Scheduled automation is running"
